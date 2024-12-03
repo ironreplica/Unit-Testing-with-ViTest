@@ -8,12 +8,14 @@ This project was build to learn about ViTest and TDD.
 - After installing, run `npm test` in one of the directories to run the tests.
 
 ### Important Package Scripts
-```json
+```json:package.json
+...
  "scripts": {
     "test": "vitest --run --reporter verbose",
     "test:watch": "vitest",
     "start": "http-server -c-1"
   },
+...
 ```
 
 ### What I learned
